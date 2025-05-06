@@ -1,0 +1,12 @@
+<div class="not-found-container">
+    <div class="not-found-content">
+        <h1>404</h1>
+        <h2>{{isSearchMode ? 'House Not Available' :'Page Not Found'}}</h2>
+        <p>{{isSearchMode?'No House In your Searched City':'Sorry, the page you are looking for doesn\'t exist or has been moved.'}}</p>
+        @if(!isSearchMode){
+            <div class="actions">
+                <a routerLink="/" class="home-button">Return to Home</a>
+            </div>
+        }
+    </div>
+</div>

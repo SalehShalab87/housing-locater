@@ -1,0 +1,134 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "Acme Fresh Start Housing",
+      "city": "Amman",
+      "state": "AM",
+      "photo": "https://angular.io/assets/images/tutorials/faa/bernard-hermant-CLKGGwIBTaY-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 14,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 1,
+      "name": "A113 Transitional Housing",
+      "city": "Irbid",
+      "state": "IR",
+      "photo": "https://angular.io/assets/images/tutorials/faa/brandon-griggs-wR11KBaB86U-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 0,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": 2,
+      "name": "Warm Beds Housing Support",
+      "city": "Zarqa",
+      "state": "ZA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 3,
+      "name": "Homesteady Housing",
+      "city": "Karak",
+      "state": "KA",
+      "photo": "https://angular.io/assets/images/tutorials/faa/ian-macdonald-W8z6aiwfi1E-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 8,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 4,
+      "name": "Happy Homes Group",
+      "city": "Amman",
+      "state": "AM",
+      "photo": "https://angular.io/assets/images/tutorials/faa/krzysztof-hepner-978RAXoXnH4-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 5,
+      "name": "Hopeful Apartment Group",
+      "city": "Jerash",
+      "state": "JE",
+      "photo": "https://angular.io/assets/images/tutorials/faa/r-architecture-JvQ0Q5IkeMM-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 6,
+      "name": "Seriously Safe Towns",
+      "city": "Ajloun",
+      "state": "AJ",
+      "photo": "https://angular.io/assets/images/tutorials/faa/phil-hearing-IYfp2Ixe9nM-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 7,
+      "name": "Hopeful Housing Solutions",
+      "city": "Irbid",
+      "state": "IR",
+      "photo": "https://angular.io/assets/images/tutorials/faa/r-architecture-GGupkreKwxA-unsplash.jpg?w=600&h=400&fit=crop",
+      "availableUnits": 33,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 8,
+      "name": "Peaceful Pines Apartments",
+      "city": "Zarqa",
+      "state": "ZA",
+      "photo": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&h=400&fit=crop",
+      "availableUnits": 20,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 9,
+      "name": "Greenleaf Residences",
+      "city": "Madaba",
+      "state": "MD",
+      "photo": "https://images.unsplash.com/photo-1599423300746-b62533397364?w=600&h=400&fit=crop",
+      "availableUnits": 15,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 10,
+      "name": "Desert View Housing",
+      "city": "Aqaba",
+      "state": "AQ",
+      "photo": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&h=400&fit=crop",
+      "availableUnits": 12,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": 11,
+      "name": "Sunset Hills Homes",
+      "city": "Salt",
+      "state": "SA",
+      "photo": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&h=400&fit=crop",
+      "availableUnits": 27,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 12,
+      "name": "Al-Madina Residency",
+      "city": "Amman",
+      "state": "AM",
+      "photo": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
+      "availableUnits": 40,
+      "wifi": true,
+      "laundry": true
+    }
+  ]
+}
