@@ -1,27 +1,46 @@
 @if (isLoading) {
-    <app-loader></app-loader>
-  } @else if (houseDetails) {
-    <header>
-      <h1>
-        <i class="ri-arrow-left-line" (click)="goBack()"></i>
-        Details For House : {{houseDetails.id}}
-      </h1>
-    </header>
-    <main class="main-container">
-      <div class="details-card">
-        <div class="details-card-image-container">
-          <img src="{{houseDetails.photo}}" alt="House Image" class="details-card-image" />
-        </div>
-        <div class="details-card-info">
-          <h2>{{houseDetails.name}}</h2>
-          <p>Location: {{houseDetails.city}}, {{houseDetails.state}}</p>
-          <p>Availabe Units: {{houseDetails.availableUnits}}</p>
-          <p>Internet Availability: {{houseDetails.wifi ? ' ✅' : ' ❌'}}</p>
-          <p>Landury Availability: {{houseDetails.landury ? ' ✅' : ' ❌'}}</p>
-        </div>
-      </div>
-    </main>
-  } @else {
-    <app-not-found></app-not-found>
-  }
-  
+<app-loader></app-loader>
+} @else if (houseDetails) {
+<header>
+  <h1>
+    <i
+  [ngClass]="currentLang === 'ar' ? 'ri-arrow-right-line' : 'ri-arrow-left-line'"
+  (click)="goBack()"
+></i>
+    {{ "house-details.details-for-house" | translate }} {{ houseDetails.id }}
+  </h1>
+</header>
+
+<main class="main-container">
+  <div class="details-card">
+    <div class="details-card-image-container">
+      <img
+        [src]="houseDetails.photo"
+        alt="House Image"
+        class="details-card-image"
+      />
+    </div>
+    <div class="details-card-info">
+      <h2>{{ houseDetails.name }}</h2>
+      <p>
+        {{ "house-details.location" | translate }}: {{ houseDetails.city }},
+        {{ houseDetails.state }}
+      </p>
+      <p>
+        {{ "house-details.available-units" | translate }}:
+        {{ houseDetails.availableUnits }}
+      </p>
+      <p>
+        {{ "house-details.internet-availability" | translate }}:
+        {{ houseDetails.wifi ? "✅" : "❌" }}
+      </p>
+      <p>
+        {{ "house-details.landury-availability" | translate }}:
+        {{ houseDetails.landury ? "✅" : "❌" }}
+      </p>
+    </div>
+  </div>
+</main>
+} @else {
+<app-not-found></app-not-found>
+}

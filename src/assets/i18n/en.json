@@ -1,0 +1,27 @@
+{
+  "header": {
+    "home": "Home"
+  },
+  "buttons": {
+    "english": "English",
+    "arabic": "Arabic",
+    "learnMore": "Learn More",
+    "return-to-home": "Return to Home"
+  },
+  "forms": {
+    "search-label": "Search for a home"
+  },
+  "not-found":{
+    "house-not-available": "House Not Available",
+    "page-fot-found": "Page Not Found",
+    "no-house-in-your-searched-city": "No House In Your Searched City",
+    "sorry":"Sorry, the page you are looking for doesn't exist or has been moved."
+  },
+  "house-details": {
+    "details-for-house": "Details For House :",
+    "location": "Location",
+    "available-units": "Available Units",
+    "internet-availability": "Internet Availability",
+    "landury-availability": "Laundry Availability"
+  }
+}

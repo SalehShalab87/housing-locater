@@ -1,13 +1,20 @@
 <header>
-  <h1><i class="ri-home-smile-fill"></i>Home</h1>
+  <h1 class="header-title">
+    <i class="ri-home-smile-fill"></i>
+    <span>{{ 'header.home' | translate }}</span>
+  </h1>
+
+  <div class="toggel-lang-buttons">
+    <button (click)="toggleLanguage('en')">{{'buttons.english'|translate}}</button>
+    <button (click)="toggleLanguage('ar')">{{'buttons.arabic'|translate}}</button>
+  </div>
 </header>
 <app-search></app-search>
 @if (isLoading) {
 <app-loader></app-loader>
 }@else if (housingService.houseList.length === 0) {
-  <app-not-found [isSearchMode]="housingService.isSearchMode"></app-not-found>
-} 
-@else {
+<app-not-found [isSearchMode]="housingService.isSearchMode"></app-not-found>
+} @else {
 <main class="home-list-container">
   <section class="home-list">
     @for (house of housingService.houseList; track house.id) {
@@ -24,7 +31,7 @@
         <p>{{ house.state }}</p>
       </div>
       <div class="learn-more">
-        <a [routerLink]="['/details', house.id]">Learn More ></a>
+        <a [routerLink]="['/details', house.id]">{{'buttons.learnMore'|translate}} ></a>
       </div>
     </div>
     }

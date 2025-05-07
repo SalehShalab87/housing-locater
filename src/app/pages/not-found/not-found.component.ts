@@ -1,9 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { TranslatePipe } from '../../pips/translate.pipe';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-not-found',
-  imports: [RouterLink],
+  imports: [RouterLink,TranslatePipe,CommonModule],
   templateUrl: './not-found.component.html',
   styleUrl: './not-found.component.scss'
 })

@@ -6,13 +6,13 @@ import {
   Validators,
 } from '@angular/forms';
 import { HousingService } from '../../services/housing.service';
-import { House } from '../../models/house.model';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabel } from 'primeng/floatlabel';
+import { TranslatePipe } from '../../pips/translate.pipe';
 
 @Component({
   selector: 'app-search',
-  imports: [ReactiveFormsModule,InputTextModule, FloatLabel],
+  imports: [ReactiveFormsModule,InputTextModule, FloatLabel,TranslatePipe],
   templateUrl: './search.component.html',
   styleUrl: './search.component.scss',
 })
