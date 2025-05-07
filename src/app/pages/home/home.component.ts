@@ -4,7 +4,7 @@ import { Router, RouterLink } from '@angular/router';
 import { LoaderComponent } from '../../components/loader/loader.component';
 import { SearchComponent } from '../../components/search/search.component';
 import { NotFoundComponent } from '../not-found/not-found.component';
-import { TranslatePipe } from '../../pips/translate.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { I18nService } from '../../services/i18n.service';
 
 @Component({

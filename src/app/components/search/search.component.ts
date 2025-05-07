@@ -8,7 +8,7 @@ import {
 import { HousingService } from '../../services/housing.service';
 import { InputTextModule } from 'primeng/inputtext';
 import { FloatLabel } from 'primeng/floatlabel';
-import { TranslatePipe } from '../../pips/translate.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 
 @Component({
   selector: 'app-search',

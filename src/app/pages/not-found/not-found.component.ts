@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { TranslatePipe } from '../../pips/translate.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { CommonModule } from '@angular/common';
 
 @Component({

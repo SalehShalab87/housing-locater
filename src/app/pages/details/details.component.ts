@@ -4,7 +4,7 @@ import { HousingService } from '../../services/housing.service';
 import { House } from '../../models/house.model';
 import { NotFoundComponent } from '../not-found/not-found.component';
 import { LoaderComponent } from '../../components/loader/loader.component';
-import { TranslatePipe } from '../../pips/translate.pipe';
+import { TranslatePipe } from '../../pipes/translate.pipe';
 import { I18nService } from '../../services/i18n.service';
 import { CommonModule } from '@angular/common';
 
