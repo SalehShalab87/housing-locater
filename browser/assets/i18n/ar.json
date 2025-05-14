@@ -1,0 +1,27 @@
+{
+  "header": {
+    "home": "الرئيسية"
+  },
+  "buttons": {
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    "learnMore": "تعلم المزيد",
+    "return-to-home": "العودة إلى الرئيسية"
+  },
+  "forms": {
+    "search-label": "ابحث عن منزل"
+  },
+  "not-found": {
+    "house-not-available": "المنزل غير متوفر",
+    "page-fot-found": "صفحة غير موجودة",
+    "no-house-in-your-searched-city": "لا يوجد منزل في مدينتك التي بحثت عنها",
+    "sorry": "عذراً، الصفحة التي تبحث عنها غير موجودة أو تم نقلها."
+  },
+  "house-details": {
+    "details-for-house": "تفاصيل المنزل :",
+    "location": "الموقع",
+    "available-units": "الوحدات المتوفرة",
+    "internet-availability": "توفر الإنترنت",
+    "landury-availability": "توفر الغسيل"
+  }
+}
